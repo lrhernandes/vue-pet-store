@@ -30,9 +30,9 @@ export default {
         this.newPrice = this.newPrice.toFixed(2);
     }
   },
-created(){
-    this.calcNewPrice();
-}
+    created(){
+        this.calcNewPrice();
+    }
 }
 </script>
 

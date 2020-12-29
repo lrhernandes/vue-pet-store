@@ -4,7 +4,9 @@
         <div class="carousel-viewport">
             <ul>
                 <li v-for="product in allDiscountProducts" :key="product.id">
-                    <a><CardProduto v-bind:product="product"/></a>
+                    <router-link :to="{name: 'Product', params: {id: product.id}}">
+                        <CardProduto v-bind:product="product"/>
+                    </router-link>
                 </li>
             </ul>
         </div>

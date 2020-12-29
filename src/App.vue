@@ -22,11 +22,24 @@ body{
   margin: 0px;
   font-family: 'Roboto Slab', serif;
   color: #525252;
-  padding-bottom: 200px;
 }
 #app{
   width: 80%;
   height: 100vh;
   margin: auto;
+}
+.btn-blue-large{
+  background: #408dcc;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+}
+.btn-blue-large:hover{
+  filter: brightness(90%);
+  cursor: pointer;
 }
 </style>
