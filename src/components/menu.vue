@@ -1,6 +1,6 @@
 <template>
     <div id="menu">
-        <p>Kats</p>
+        <router-link to="/" class="kats-title"><p>Kats</p></router-link>
         <div class="categorygroup">
             <a class="categorybtn">cachorros</a>
             <a class="categorybtn">gatos</a>
@@ -33,9 +33,10 @@ export default {
         margin-bottom: 10px;
         justify-content: space-between;
     }
-    p{
+    .kats-title{
         font-size: 24px;
-        margin: 10px 0px;
+        color: #525252;
+        text-decoration: none;
         text-transform: uppercase;
     }
     .categorygroup, .search-input{
@@ -65,7 +66,7 @@ export default {
     .categorygroup div:nth-of-type(2){
         margin-left: 4vh;
     }
-    .categorygroup .menu-icon:hover, a:hover{
+    .categorygroup .menu-icon:hover, .categorygroup a:hover{
         top: -1px;
         position: relative;
     }
