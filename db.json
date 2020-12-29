@@ -6,7 +6,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
             "price": 2.50,
             "category": "dog",
-            "discount": 21
+            "discount": 21,
+            "brand": "Kelko",
+            "weight": "250g"
         },
         { 
             "id": 2, 
@@ -14,15 +16,19 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
             "price": 7.47,
             "category": "cat",
-            "discount": 10
+            "discount": 10,
+            "brand": "Catinho",
+            "weight": "4kg"
         },
         { 
             "id": 3, 
-            "title": "Ração Royal Canin 400g", 
+            "title": "Ração Royal Canin Cachorros Adultos 400g", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
             "price": 21.60,
             "category": "dog",
-            "discount": 40
+            "discount": 40,
+            "brand": "Royal Canin",
+            "weight": "400g"
         },
         { 
             "id": 4, 
@@ -30,7 +36,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
             "price": 3.80,
             "category": "rodent",
-            "discount": null
+            "discount": null,
+            "brand": "Ratinho Feliz",
+            "weight": "200g"
         },
         { 
             "id": 5, 
@@ -38,7 +46,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
             "price": 140.00,
             "category": "dogs",
-            "discount": 14
+            "discount": 14,
+            "brand": "PremierPet",
+            "weight": "20kg"
         }
     ]
   }

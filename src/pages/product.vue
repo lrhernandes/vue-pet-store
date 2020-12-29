@@ -5,13 +5,17 @@
         <Gallery/>
         <Description v-bind:idAnuncio="$route.params.id"/>
     </div>
+    <Info v-bind:idAnuncio="$route.params.id"/>
+    <Destaques/>
   </div>
 </template>
 
 <script> 
 import Menu from '../components/menu';
 import Gallery from '../components/product/gallery';
+  import Destaques from '../components/home/destaques';
 import Description from '../components/product/description';
+import Info from '../components/product/info';
 export default {
     name: 'Product',
     created(){
@@ -20,7 +24,9 @@ export default {
     components: {
         Menu,
         Gallery,
-        Description
+        Description,
+        Info,
+        Destaques
     }
 }
 </script>

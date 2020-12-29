@@ -1,6 +1,6 @@
 <template>
     <div id="destaques">
-        <h3>itens em promoção para o seu pet ;)</h3>
+        <h4>Itens em promoção para o seu pet ;)</h4>
         <div class="carousel-viewport">
             <ul>
                 <li v-for="product in allDiscountProducts" :key="product.id">
@@ -36,7 +36,7 @@ export default {
     #destaques{
         padding-bottom: 120px;
     }
-    #destaques h3{
+    #destaques h4{
         color: #408dcc;
     }
     ul{

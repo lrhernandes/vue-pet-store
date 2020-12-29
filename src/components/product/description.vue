@@ -1,6 +1,6 @@
 <template>
   <div id="description">
-        <div class="title-wrapper">
+        <div class="title-discount-wrapper">
         <h3>{{anuncio.title}}</h3>
         <div v-if="newPrice" class="discount-wrapper">
             -{{anuncio.discount}}%
@@ -8,7 +8,7 @@
         </div>
         <p v-bind:class="priceClass">R$ {{anuncio.price}}</p>
         <p v-if="newPrice" class="new-price">R$ {{newPrice}}</p>
-        <p>{{anuncio.description}}</p>
+        <p class="description">{{anuncio.description}}</p>
         <button class="btn-blue-large">
             COMPRAR 
             <font-awesome-icon class="menu-icon" icon="shopping-cart"/>
@@ -55,13 +55,14 @@ export default {
     width: 40%;
     padding: 30px;
 }
-.title-wrapper{
+.title-discount-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
-.title-wrapper h3{
+.title-discount-wrapper h3{
     margin: 0px;
 }
 .discount-wrapper{
@@ -80,5 +81,11 @@ export default {
     margin: 5px 0px;  
     font-size: 20px;
     margin: 5px 0px;
+}
+.description{
+    color: #616161;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 0px;
 }
 </style>
