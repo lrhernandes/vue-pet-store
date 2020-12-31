@@ -1,6 +1,5 @@
 <template>
   <div id="gallery">
-      Galeria
   </div>
 </template>
 
@@ -12,7 +11,8 @@ export default {
 
 <style>
 #gallery{
-    border: 2px solid purple;
+    background: gray;
     width: 60%;
+    height: 400px;
 }
 </style>

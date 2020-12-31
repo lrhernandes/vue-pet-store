@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Login from './pages/login.vue';
 import Home from './pages/home.vue';
 import Product from './pages/product.vue';
+import Products from './pages/products.vue';
 import E404 from './pages/404.vue';
 
 Vue.use(VueRouter);
@@ -11,6 +12,7 @@ const routes = [
     { path: '/', name:'Home', component: Home},
     { path: '/entrar', name:'Login', component: Login },
     { path: '/product/:id', name:'Product', component: Product },
+    { path: '/products/:category', name:'Products', component: Products },
     { path: '*', name:'404', component: E404 }
 ]
 

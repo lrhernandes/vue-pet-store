@@ -13,7 +13,7 @@
 <script> 
 import Menu from '../components/menu';
 import Gallery from '../components/product/gallery';
-  import Destaques from '../components/home/destaques';
+import Destaques from '../components/home/destaques';
 import Description from '../components/product/description';
 import Info from '../components/product/info';
 export default {
@@ -33,7 +33,7 @@ export default {
 
 <style>
 .product-wrapper{
-    border: 2px solid blue;
     display: flex;
+    align-items: center;
 }
 </style>

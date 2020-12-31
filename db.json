@@ -45,10 +45,30 @@
             "title": "Ração Golden 20kg", 
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
             "price": 140.00,
-            "category": "dogs",
+            "category": "dog",
             "discount": 14,
             "brand": "PremierPet",
             "weight": "20kg"
+        },
+        { 
+            "id": 6, 
+            "title": "Ração Nutropica 600g", 
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
+            "price": 17.50,
+            "category": "rodent",
+            "discount": 5,
+            "brand": "Nutropica",
+            "weight": "600g"
+        },
+        { 
+            "id": 7, 
+            "title": "Ração Birbo 15kg cães adultos", 
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus est vitae est facilisis, quis placerat arcu sollicitudin. Nam dignissim tortor diam, vitae mattis lacus malesuada vel. Aenean egestas vitae arcu vulputate ullamcorper. Quisque cursus odio in sapien consectetur tempor.",
+            "price": 95.99,
+            "category": "dog",
+            "discount": 3,
+            "brand": "Birbo",
+            "weight": "15kg"
         }
     ]
   }

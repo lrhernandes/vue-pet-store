@@ -53,7 +53,7 @@ export default {
 <style>
 #description{
     width: 40%;
-    padding: 30px;
+    padding-left: 30px;
 }
 .title-discount-wrapper{
     display: flex;

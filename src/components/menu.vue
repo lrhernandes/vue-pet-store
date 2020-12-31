@@ -2,9 +2,9 @@
     <div id="menu">
         <router-link to="/" class="kats-title"><p>Kats</p></router-link>
         <div class="categorygroup">
-            <a class="categorybtn">cachorros</a>
-            <a class="categorybtn">gatos</a>
-            <a class="categorybtn">roedores</a>
+            <router-link :to="{name: 'Products', params: {category: 'dog'}}" class="categorybtn">cachorros</router-link>
+            <router-link :to="{name: 'Products', params: {category: 'cat'}}" class="categorybtn">gatos</router-link>
+            <router-link :to="{name: 'Products', params: {category: 'rodent'}}" class="categorybtn">roedores</router-link>
         </div>
         <div class="search-input"> 
             <div class="input-container">
@@ -47,6 +47,10 @@ export default {
     }
     .categorygroup a:nth-of-type(2){
         margin: 0vw 6vw;
+    }
+    .categorygroup a{
+        text-decoration: none;
+        color: #525252;
     }
     .categorybtn{
         background: none;

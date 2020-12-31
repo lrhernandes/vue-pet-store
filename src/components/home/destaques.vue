@@ -39,6 +39,9 @@ export default {
     #destaques h4{
         color: #408dcc;
     }
+    #destaques a{
+        text-decoration: none;
+    }
     ul{
         margin: 0px;
         padding: 0px;
